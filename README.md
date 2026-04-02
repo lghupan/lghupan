@@ -15,6 +15,12 @@ agentproxy run claude
 
 ---
 
+### Featured
+
+[![AgentProxy](https://github-readme-stats.vercel.app/api/pin/?username=lghupan&repo=agentproxy&theme=dark&hide_border=true&bg_color=0d1117)](https://github.com/lghupan/agentproxy)
+
+---
+
 ### Tech
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -23,8 +29,8 @@ agentproxy run claude
 
 ---
 
-### Stats
+### AgentProxy stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lghupan&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lghupan&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff)
+![Stars](https://img.shields.io/github/stars/lghupan/agentproxy?style=flat-square&color=58a6ff&label=Stars)
+![Commits](https://img.shields.io/github/commit-activity/m/lghupan/agentproxy?style=flat-square&color=58a6ff&label=Commits%2Fmonth)
+![Top Language](https://img.shields.io/github/languages/top/lghupan/agentproxy?style=flat-square&color=58a6ff)
