@@ -15,9 +15,12 @@ agentproxy run claude
 
 ---
 
-### Featured
+### Projects
 
-[![AgentProxy](https://github-readme-stats.vercel.app/api/pin/?username=lghupan&repo=agentproxy&theme=dark&hide_border=true&bg_color=0d1117)](https://github.com/lghupan/agentproxy)
+| | |
+|---|---|
+| **[AgentProxy](https://github.com/lghupan/agentproxy)** — Token compression proxy for LLM agents. +40% task success, −25% cost. | **[cc-automode](https://github.com/lghupan/cc-automode)** — Standalone re-implementation of Claude Code auto mode with Docker benchmark suite. |
+| **[intro-to-agentic-security](https://github.com/lghupan/intro-to-agentic-security)** — An introduction to agentic AI security. | **[CloudEval-YAML](https://github.com/alibaba/CloudEval-YAML)** — Benchmarking LLMs for cloud config generation. ☁️ |
 
 ---
 
