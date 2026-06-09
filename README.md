@@ -1,17 +1,20 @@
 # Hi, I'm Pan Hu 👋
 
-I build infrastructure for AI coding agents.
+I build infrastructure and security systems for AI agents.
 
-Currently working on **[AgentProxy](https://github.com/lghupan/agentproxy)** — a transparent token compression proxy that sits between your agent and the Anthropic/OpenAI API. It compresses tool results before they hit the context window, so your agent solves more problems and costs less to run.
+### Recent
 
-- **+40% more problems solved** on SWE-bench style tasks
-- **−25% token cost** on real coding workloads
-- Zero code changes — just prefix your command with `agentproxy run`
+I recently gave an [MLSys talk](files/adr-mlsys-2026-slides.pdf) on **[ADR: An Agentic Detection and Response System for Enterprise Agentic AI Security](https://github.com/uber/ADR)**.
 
-```bash
-pip install agentproxy
-agentproxy run claude
-```
+ADR is built from Uber's production experience securing AI agents at enterprise scale and has been integrated into Uber's incident response workflow:
+
+- **Comprehensive observability:** reconstructs prompts, reasoning, tool calls, commands, files, and runtime context across 7 agent tools, including Claude Code/Cowork, Codex, Cursor, Warp, Gemini, and Cline.
+- **Enterprise oriented benchmark:** 302 tasks derived from enterprise scenarios, with 260 benign and 42 malicious workflows, realistic policy context, and 17/17 attack techniques across 5 tactics.
+- **Production grade detection:** routes benign sessions through cheap triage and reserves deeper agentic reasoning for high-risk sessions, reaching 2 to 4x F1 over baselines while staying practical at 200k+ sessions per day.
+
+During one year of deployment, ADR closed the visibility gap and surfaced human accountability failures, secret exfiltration, destructive commands, data leakage, supply chain exposure, excessive agency, hallucination, and the need for real-time guardrails.
+
+[Slides](files/adr-mlsys-2026-slides.pdf) · [Paper](files/adr-paper.pdf)
 
 ---
 
@@ -19,21 +22,5 @@ agentproxy run claude
 
 | | |
 |---|---|
-| **[AgentProxy](https://github.com/lghupan/agentproxy)** — Token compression proxy for LLM agents. +40% task success, −25% cost. | **[cc-automode](https://github.com/lghupan/cc-automode)** — Standalone re-implementation of Claude Code auto mode with Docker benchmark suite. |
-| **[intro-to-agentic-security](https://github.com/lghupan/intro-to-agentic-security)** — An introduction to agentic AI security. | **[CloudEval-YAML](https://github.com/alibaba/CloudEval-YAML)** — Benchmarking LLMs for cloud config generation. ☁️ |
-
----
-
-### Tech
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-
----
-
-### AgentProxy stats
-
-![Stars](https://img.shields.io/github/stars/lghupan/agentproxy?style=flat-square&color=58a6ff&label=Stars)
-![Commits](https://img.shields.io/github/commit-activity/m/lghupan/agentproxy?style=flat-square&color=58a6ff&label=Commits%2Fmonth)
-![Top Language](https://img.shields.io/github/languages/top/lghupan/agentproxy?style=flat-square&color=58a6ff)
+| **[ADR](https://github.com/uber/ADR)** — Agentic detection and response for enterprise AI agent security. Coming soon. [Slides](files/adr-mlsys-2026-slides.pdf) · [Paper](files/adr-paper.pdf) | **[intro-to-agentic-security](https://github.com/lghupan/intro-to-agentic-security)** — An introduction to agentic AI security. |
+| **[cc-automode](https://github.com/lghupan/cc-automode)** — Standalone re-implementation of Claude Code auto mode with Docker benchmark suite. | **[CloudEval-YAML](https://github.com/alibaba/CloudEval-YAML)** — Benchmarking LLMs for cloud config generation. ☁️ |
