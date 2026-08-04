@@ -22,5 +22,5 @@ During one year of deployment, ADR closed the visibility gap and surfaced human 
 
 | | |
 |---|---|
-| **[ADR](https://github.com/uber/ADR)** — Agentic detection and response for enterprise AI agent security. Coming soon. [Slides](files/adr-mlsys-2026-slides.pdf) · [Paper](files/adr-paper.pdf) | **[intro-to-agentic-security](https://github.com/lghupan/intro-to-agentic-security)** — An introduction to agentic AI security. |
+| **[ADR](https://github.com/uber/ADR)** — Agentic detection and response for enterprise AI agent security. [Slides](files/adr-mlsys-2026-slides.pdf) · [Paper](files/adr-paper.pdf) | **[intro-to-agentic-security](https://github.com/lghupan/intro-to-agentic-security)** — An introduction to agentic AI security. |
 | **[cc-automode](https://github.com/lghupan/cc-automode)** — Standalone re-implementation of Claude Code auto mode with Docker benchmark suite. | **[CloudEval-YAML](https://github.com/alibaba/CloudEval-YAML)** — Benchmarking LLMs for cloud config generation. ☁️ |
